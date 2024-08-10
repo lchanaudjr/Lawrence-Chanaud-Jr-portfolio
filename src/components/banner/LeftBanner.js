@@ -1,7 +1,8 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiCsharp, SiDotnet, SiDocker, SiAzurefunctions } from "react-icons/si";
+import openLink from '../../openLink';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -38,12 +39,12 @@ const LeftBanner = () => {
           <div className="flex gap-4">
             <span className="bannerIcon">
               <FaLinkedinIn onClick={() => {
-    const url = 'somesite.com?data=yourDataToSend';
-    window.open(url, '_blank');
-}}/>
+                  openLink('https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/')
+                }}/>
             </span>
-            <span className="bannerIcon">
-              <FaGithub />
+            <span className="bannerIcon"> 
+              <FaGithub onClick={() => {openLink('https://github.com/lchanaudjr');
+                }}/>
             </span>
           </div>
         </div>
@@ -53,16 +54,22 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+              <FaReact onClick={() => {openLink('https://react.dev/')}}/>
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiNextdotjs onClick={() => {openLink('https://nextjs.org/')}}/>
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiCsharp onClick={() => {openLink('https://learn.microsoft.com/en-us/dotnet/csharp/')}}/>
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiDotnet onClick={() => {openLink('https://dotnet.microsoft.com/en-us/')}}/>
+            </span>
+            <span className="bannerIcon">
+              <SiDocker onClick={() => {openLink('https://www.docker.com/')}}/>
+            </span>
+            <span className="bannerIcon">
+              <SiAzurefunctions onClick={() => {openLink('https://azure.microsoft.com/en-us/products/functions')}}/>
             </span>
           </div>
         </div>

@@ -1,7 +1,7 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from "react";
+import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -10,33 +10,30 @@ const Projects = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
-          des="My Projects"
-        />
+        <Title title="LEARN ABOUT MY" des="Personal Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Gaggiuno"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Making a mid-level espressio machine state-of-the-art by adding a touch screen and an Arduino."
           src={projectOne}
+          github={"https://gaggiuino.github.io/#/"}
         />
         <ProjectsCard
           title="AYAB"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Upgrading a knitting machine with an Arduino to allow for modern pattern creation."
           src={projectTwo}
+          github={"https://www.ayab-knitting.com/"}
         />
         <ProjectsCard
-          title="Personal Docker Server"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Docker Server"
+          des="Setting up a personal server with Docker to host a variety of services."
           src={projectThree}
+          github={"https://github.com/lchanaudjr/Docker-Containers"}
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
