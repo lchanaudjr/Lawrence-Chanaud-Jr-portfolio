@@ -27,7 +27,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Docker Server"
-          des="Setting up a personal server with Docker to host a variety of services."
+          des="Setting up a personal server with Docker to host personal ."
           src={projectThree}
           github={"https://github.com/lchanaudjr/Docker-Containers"}
         />

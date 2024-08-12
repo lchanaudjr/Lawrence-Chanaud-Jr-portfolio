@@ -128,7 +128,7 @@ const Testimonial = () => {
     return (
       <div className="w-full">
         <div className="w-full h-200 flex lgl:flex-row justify-center pb-5 items-center ">
-          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
+          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
             <img
               className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
               src={img}
@@ -143,7 +143,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="w-full lgl:w-[60%] h-full flex flex-col items-center">
-            <div className="mr-5 w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-4 flex flex-col gap-4 shadow-lg">
+            <div className="mr-5 w-full h-[70%] py-10 bg-gradient-to-r from-gradientStart to-[#23272b] rounded-lg p-4 flex flex-col gap-4 shadow-lg">
               <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                 <div>
                   <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">

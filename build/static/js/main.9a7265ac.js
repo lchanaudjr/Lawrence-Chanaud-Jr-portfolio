@@ -4,7 +4,6 @@
       1694: function (e, t) {
         var n;
         !(function () {
-          
           var r = {}.hasOwnProperty;
           function i() {
             for (var e = [], t = 0; t < arguments.length; t++) {
@@ -438,7 +437,6 @@
         };
       },
       888: function (e, t, n) {
-        
         var r = n(9047);
         function i() {}
         function o() {}
@@ -486,11 +484,9 @@
         e.exports = n(888)();
       },
       9047: function (e) {
-        
         e.exports = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
       },
       4463: function (e, t, n) {
-        
         var r = n(2791),
           i = n(5296);
         function o(e) {
@@ -8920,12 +8916,10 @@
           (t.version = "18.2.0-next-9e3b772b8-20220608");
       },
       1250: function (e, t, n) {
-        
         var r = n(4164);
         (t.createRoot = r.createRoot), (t.hydrateRoot = r.hydrateRoot);
       },
       4164: function (e, t, n) {
-        
         !(function e() {
           if (
             "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ &&
@@ -8940,7 +8934,6 @@
           (e.exports = n(4463));
       },
       2592: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r = (function () {
             function e(e, t) {
@@ -9025,7 +9018,6 @@
         t.default = (0, o.default)(u);
       },
       5532: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r =
             Object.assign ||
@@ -9131,7 +9123,6 @@
           (t.default = (0, a.default)(d));
       },
       4582: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r = o(n(2791)),
           i = o(n(7585));
@@ -9198,7 +9189,6 @@
         t.default = (0, i.default)(s);
       },
       5667: function (e, t, n) {
-        
         t.rU = void 0;
         var r = p(n(4582)),
           i = p(n(2592)),
@@ -9235,7 +9225,6 @@
           f.default;
       },
       719: function (e, t, n) {
-        
         var r =
             Object.assign ||
             function (e) {
@@ -9515,7 +9504,6 @@
         e.exports = h;
       },
       4102: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r =
             Object.assign ||
@@ -9748,7 +9736,6 @@
         };
       },
       8616: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r = n(4360),
           i = ["mousedown", "mousewheel", "touchmove", "keydown"];
@@ -9764,7 +9751,6 @@
         };
       },
       4360: function (e, t) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         (t.addPassiveEventListener = function (e, t, n) {
           var r = (function () {
@@ -9786,7 +9772,6 @@
           });
       },
       671: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r =
             Object.assign ||
@@ -9903,7 +9888,6 @@
         };
       },
       979: function (e, t) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var n = {
           registered: {},
@@ -9919,7 +9903,6 @@
         t.default = n;
       },
       5203: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         n(4360);
         var r,
@@ -9982,7 +9965,6 @@
         t.default = a;
       },
       7585: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r =
             Object.assign ||
@@ -10225,7 +10207,6 @@
         };
       },
       3688: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r,
           i = n(3881),
@@ -10323,7 +10304,6 @@
         t.default = l;
       },
       2338: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var r =
             Object.assign ||
@@ -10400,7 +10380,6 @@
         };
       },
       3987: function (e, t) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 }),
           (t.default = {
             defaultEasing: function (e) {
@@ -10454,7 +10433,6 @@
           });
       },
       5183: function (e, t) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 });
         var n = function (e, t) {
           for (var n = e.offsetTop, r = e.offsetParent; r && !t(r); )
@@ -10518,7 +10496,6 @@
         };
       },
       4048: function (e, t, n) {
-        
         var r = n(184),
           i = n(2791),
           o = function () {
@@ -10687,7 +10664,6 @@
         (t.CF = s), (t.Ku = l);
       },
       8436: function (e, t, n) {
-        
         function r(e) {
           return (
             (r =
@@ -10972,7 +10948,6 @@
         t.NextArrow = w;
       },
       5484: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 }),
           (t.default = void 0);
         var r,
@@ -11040,7 +11015,6 @@
         t.default = o;
       },
       3800: function (e, t, n) {
-        
         function r(e) {
           return (
             (r =
@@ -11284,14 +11258,12 @@
         t.Dots = m;
       },
       5717: function (e, t, n) {
-        
         var r;
         t.Z = void 0;
         var i = ((r = n(3178)) && r.__esModule ? r : { default: r }).default;
         t.Z = i;
       },
       1382: function (e, t) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 }),
           (t.default = void 0);
         var n = {
@@ -11322,7 +11294,6 @@
         t.default = n;
       },
       8293: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 }),
           (t.InnerSlider = void 0);
         var r = f(n(2791)),
@@ -12228,7 +12199,6 @@
         t.InnerSlider = j;
       },
       3178: function (e, t, n) {
-        
         function r(e) {
           return (
             (r =
@@ -12608,7 +12578,6 @@
         t.default = w;
       },
       4931: function (e, t, n) {
-        
         function r(e) {
           return (
             (r =
@@ -12978,7 +12947,6 @@
         t.Track = k;
       },
       8026: function (e, t, n) {
-        
         Object.defineProperty(t, "__esModule", { value: !0 }),
           (t.checkSpecKeys =
             t.checkNavigable =
@@ -13693,7 +13661,6 @@
         };
       },
       6374: function (e, t, n) {
-        
         var r = n(2791),
           i = Symbol.for("react.element"),
           o = Symbol.for("react.fragment"),
@@ -13726,7 +13693,6 @@
         (t.Fragment = o), (t.jsx = u), (t.jsxs = u);
       },
       9117: function (e, t) {
-        
         var n = Symbol.for("react.element"),
           r = Symbol.for("react.portal"),
           i = Symbol.for("react.fragment"),
@@ -14118,15 +14084,12 @@
           (t.version = "18.2.0");
       },
       2791: function (e, t, n) {
-        
         e.exports = n(9117);
       },
       184: function (e, t, n) {
-        
         e.exports = n(6374);
       },
       474: function (e, t, n) {
-        
         n.r(t);
         var r = (function () {
             if ("undefined" !== typeof Map) return Map;
@@ -14571,7 +14534,6 @@
         t.default = A;
       },
       6813: function (e, t) {
-        
         function n(e, t) {
           var n = e.length;
           e.push(t);
@@ -14856,7 +14818,6 @@
           });
       },
       5296: function (e, t, n) {
-        
         e.exports = n(6813);
       },
       2806: function (e) {
@@ -14892,7 +14853,6 @@
     }),
     (n.p = "/"),
     (function () {
-      
       var e = n(2791),
         t = n(1250);
       function r(e, t) {
@@ -15364,7 +15324,7 @@
               }),
               (0, j.jsx)("div", {
                 className:
-                  "absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-lg flex justify-center items-center",
+                  "absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-gradientStart to-gradientEnd shadow-lg flex justify-center items-center",
               }),
             ],
           });
@@ -15399,7 +15359,7 @@
         F = function () {
           return (0, j.jsxs)("div", {
             className:
-              "w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-lg flex flex-col gap-8 justify-center",
+              "w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-lg flex flex-col gap-8 justify-center",
             children: [
               (0, j.jsx)("img", {
                 className: "w-full h-64 object-cover rounded-lg mb-2",
@@ -15517,7 +15477,7 @@
                     (0, j.jsx)(F, {}),
                     (0, j.jsx)("div", {
                       className:
-                        "w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-lg",
+                        "w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-gradientStart to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-lg",
                       children: (0, j.jsxs)("form", {
                         className:
                           "w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5",
@@ -15525,13 +15485,13 @@
                           y &&
                             (0, j.jsx)("p", {
                               className:
-                                "py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg text-center text-orange-500 text-base tracking-wide animate-bounce",
+                                "py-3 bg-gradient-to-r from-gradientStart to-[#23272b] shadow-lg text-center text-orange-500 text-base tracking-wide animate-bounce",
                               children: y,
                             }),
                           w &&
                             (0, j.jsx)("p", {
                               className:
-                                "py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg text-center text-green-500 text-base tracking-wide animate-bounce",
+                                "py-3 bg-gradient-to-r from-gradientStart to-[#23272b] shadow-lg text-center text-green-500 text-base tracking-wide animate-bounce",
                               children: w,
                             }),
                           (0, j.jsxs)("div", {
@@ -15695,13 +15655,13 @@
                           y &&
                             (0, j.jsx)("p", {
                               className:
-                                "py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg text-center text-orange-500 text-base tracking-wide animate-bounce",
+                                "py-3 bg-gradient-to-r from-gradientStart to-[#23272b] shadow-lg text-center text-orange-500 text-base tracking-wide animate-bounce",
                               children: y,
                             }),
                           w &&
                             (0, j.jsx)("p", {
                               className:
-                                "py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg text-center text-green-500 text-base tracking-wide animate-bounce",
+                                "py-3 bg-gradient-to-r from-gradientStart to-[#23272b] shadow-lg text-center text-green-500 text-base tracking-wide animate-bounce",
                               children: w,
                             }),
                         ],
@@ -15765,7 +15725,7 @@
             r = e.icon;
           return (0, j.jsx)("div", {
             className:
-              "w-full px-12 h-80 py-10 rounded-lg shadow-lg flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group",
+              "w-full px-12 h-80 py-10 rounded-lg shadow-lg flex items-center bg-gradient-to-r from-bodyColor to-gradientEnd group hover:bg-gradient-to-b hover:from-black hover:to-gradientStart transition-colors duration-100 group",
             children: (0, j.jsx)("div", {
               className: "h-72 overflow-y-hidden",
               children: (0, j.jsxs)("div", {
@@ -16345,7 +16305,7 @@
             r = e.src;
           return (0, j.jsxs)("div", {
             className:
-              "w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000",
+              "w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col bg-gradient-to-r from-bodyColor to-gradientEnd group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000",
             children: [
               (0, j.jsx)("div", {
                 className: "w-full h-[80%] overflow-hidden rounded-lg",
@@ -24801,7 +24761,7 @@
                           children: [
                             (0, j.jsxs)("div", {
                               className:
-                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
+                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
                               children: [
                                 (0, j.jsx)("img", {
                                   className:
@@ -24841,7 +24801,7 @@
                                 }),
                                 (0, j.jsxs)("div", {
                                   className:
-                                    "w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
+                                    "w-full h-[70%] py-10 bg-gradient-to-r from-gradientStart to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
                                   children: [
                                     (0, j.jsxs)("div", {
                                       className:
@@ -24897,7 +24857,7 @@
                           children: [
                             (0, j.jsxs)("div", {
                               className:
-                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
+                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
                               children: [
                                 (0, j.jsx)("img", {
                                   className:
@@ -24937,7 +24897,7 @@
                                 }),
                                 (0, j.jsxs)("div", {
                                   className:
-                                    "w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
+                                    "w-full h-[70%] py-10 bg-gradient-to-r from-gradientStart to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
                                   children: [
                                     (0, j.jsxs)("div", {
                                       className:
@@ -24993,7 +24953,7 @@
                           children: [
                             (0, j.jsxs)("div", {
                               className:
-                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
+                                "w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-8 rounded-lg shadow-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center",
                               children: [
                                 (0, j.jsx)("img", {
                                   className:
@@ -25033,7 +24993,7 @@
                                 }),
                                 (0, j.jsxs)("div", {
                                   className:
-                                    "w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
+                                    "w-full h-[70%] py-10 bg-gradient-to-r from-gradientStart to-[#23272b] rounded-lg shadow-lg p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8",
                                   children: [
                                     (0, j.jsxs)("div", {
                                       className:
