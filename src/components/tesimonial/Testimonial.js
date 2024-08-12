@@ -44,7 +44,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute bottom-1 right-1/3 cursor-pointer"
+      className="w-14 h-12 bg-gradientStart hover:bg-gradientEnd duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute bottom-1 right-1/3 cursor-pointer"
       onClick={onClick}
     >
       <HiArrowRight />
@@ -56,7 +56,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute bottom-1 left-1/3 cursor-pointer z-10"
+      className="w-14 h-12 bg-gradientStart hover:bg-gradientEnd duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute bottom-1 left-1/3 cursor-pointer z-10"
       onClick={onClick}
     >
       <HiArrowLeft />
@@ -105,7 +105,7 @@ const Testimonial = () => {
                 width: "12px",
                 height: "12px",
                 color: "blue",
-                background: "#ff014f",
+                background: "#fedb69",
                 borderRadius: "50%",
                 cursor: "pointer",
                 marginBottom: "10px",
@@ -114,7 +114,7 @@ const Testimonial = () => {
                 width: "12px",
                 height: "12px",
                 color: "blue",
-                background: "gray",
+                background: "#554a00",
                 borderRadius: "50%",
                 cursor: "pointer",
                 marginBottom: "10px",
@@ -128,7 +128,7 @@ const Testimonial = () => {
     return (
       <div className="w-full">
         <div className="w-full h-200 flex lgl:flex-row justify-center pb-5 items-center ">
-          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-r from-gradientStart to-[#23272b] p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
+          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-br from-gradientStart from-80% to-gradientEnd p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
             <img
               className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
               src={img}
@@ -139,20 +139,20 @@ const Testimonial = () => {
                 {company}
               </p>
               <h3 className="text-2xl font-bold">{name}</h3>
-              <p className="text-base tracking-wide text-gray-500">{title}</p>
+              <p className="text-base tracking-wide text-gray-300">{title}</p>
             </div>
           </div>
           <div className="w-full lgl:w-[60%] h-full flex flex-col items-center">
-            <div className="mr-5 w-full h-[70%] py-10 bg-gradient-to-r from-gradientStart to-[#23272b] rounded-lg p-4 flex flex-col gap-4 shadow-lg">
+            <div className="mr-5 w-full h-[70%] py-10 bg-gradient-to-tr from-gradientStart from-70% to-gradientEnd rounded-lg p-4 flex flex-col gap-4 shadow-lg">
               <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                 <div>
                   <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                     {project}
                   </h3>
-                  <p className="text-base text-gray-400 mt-3">{date}</p>
+                  <p className="text-base text-gray-200 mt-3">{date}</p>
                 </div>
               </div>
-              <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+              <p className="text-base font-titleFont text-gray-200 font-medium tracking-wide leading-6">
                 {desc}
               </p>
             </div>

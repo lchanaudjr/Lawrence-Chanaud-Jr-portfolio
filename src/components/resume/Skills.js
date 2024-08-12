@@ -18,12 +18,12 @@ const Skills = () => {
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">React</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
@@ -31,12 +31,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Typescript</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[80%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">80%</span>
               </motion.span>
@@ -44,12 +44,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Next.js</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
@@ -57,12 +57,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">HTML 5</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
@@ -70,12 +70,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">CSS3</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
@@ -84,12 +84,12 @@ const Skills = () => {
 
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">C#</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">80%</span>
               </motion.span>
@@ -97,12 +97,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">.NET 6+</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[70%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">70%</span>
               </motion.span>
@@ -110,12 +110,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">ASP.NET CORE</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[50%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">50%</span>
               </motion.span>
@@ -123,12 +123,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Entity Framework</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[80%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">80%</span>
               </motion.span>
@@ -148,12 +148,12 @@ const Skills = () => {
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Azure DevOps</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
@@ -163,12 +163,12 @@ const Skills = () => {
             <p className="text-sm uppercase font-medium">
               Azure Cloud Computing Services
             </p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
@@ -176,12 +176,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Docker</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
@@ -190,12 +190,12 @@ const Skills = () => {
 
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Visual Studio</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
@@ -203,12 +203,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">VS Code</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[80%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">80%</span>
               </motion.span>
@@ -216,12 +216,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">GIT</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
@@ -231,12 +231,12 @@ const Skills = () => {
             <p className="text-sm uppercase font-medium">
               SQL Server Management Studio
             </p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[70%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">70%</span>
               </motion.span>
@@ -244,12 +244,12 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Postman</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+            <span className="w-full h-2  rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">90%</span>
               </motion.span>

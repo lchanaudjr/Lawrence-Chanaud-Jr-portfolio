@@ -29,7 +29,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2012 - 2020</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-6 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-20">
+        <div className="mt-6 lgl:mt-6 w-full h-[400px] border-l-[6px] border-gradientEnd border-opacity-30 flex flex-col gap-20">
           <ResumeCard
             title="B.Sc. Computer Science; Minor: Mathematics"
             subTitle="Towson University (2016 - 2020)"

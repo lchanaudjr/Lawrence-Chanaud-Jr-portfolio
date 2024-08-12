@@ -56,7 +56,7 @@ const Contact = () => {
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-gradientStart to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-lg">
+          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-t from-gradientStart from-70% to-gradientEnd flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-lg">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-gradientStart to-[#23272b] shadow-lg text-center text-orange-500 text-base tracking-wide animate-bounce">
@@ -70,7 +70,7 @@ const Contact = () => {
               )}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-white uppercase tracking-wide">
                     Your name
                   </p>
                   <input
@@ -84,7 +84,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-white uppercase tracking-wide">
                     Phone Number
                   </p>
                   <input
@@ -99,7 +99,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                <p className="text-sm text-white uppercase tracking-wide">
                   Email
                 </p>
                 <input
@@ -113,7 +113,7 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                <p className="text-sm text-white uppercase tracking-wide">
                   Subject
                 </p>
                 <input
@@ -127,7 +127,7 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                <p className="text-sm text-white uppercase tracking-wide">
                   Message
                 </p>
                 <textarea
@@ -143,7 +143,7 @@ const Contact = () => {
               <div className="w-full">
                 <button
                   onClick={handleSend}
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                  className="w-full h-12 rounded-lg tracking-wider uppercase border-transparent bg-designColor text-gradientStart inline-flex items-center justify-center rounded-md shadow-lg hover:bg-bodyColor hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"
                 >
                   Send Message
                 </button>
