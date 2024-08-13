@@ -128,7 +128,7 @@ const Testimonial = () => {
     return (
       <div className="w-full">
         <div className="w-full h-200 flex lgl:flex-row justify-center pb-5 items-center ">
-          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-br from-gradientStart from-80% to-gradientEnd p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
+          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-l from-gradientStart from-80% to-gradientEnd p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
             <img
               className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
               src={img}

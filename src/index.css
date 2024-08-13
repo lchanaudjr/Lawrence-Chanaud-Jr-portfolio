@@ -8,7 +8,7 @@
     @apply w-16 h-16 bg-designColor text-gradientStart text-xl inline-flex items-center justify-center rounded-md shadow-lg hover:bg-bodyColor hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
   }
   .resumeLi {
-    @apply w-full h-20 bg-gradientStart text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
+    @apply w-full h-20 bg-designColor text-xl text-gradientStart flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center rounded-lg;
   }
   .contactInput {
     @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-bodyColor text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
