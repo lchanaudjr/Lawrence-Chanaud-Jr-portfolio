@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "../layouts/Title";
-import {
-  testimonialOne,
-  testimonialTwo,
-  testimonialThree,
-  quote,
-} from "../../assets";
+import { testimonialOne, testimonialTwo, testimonialThree } from "../../assets";
 
 const testimonialData = [
   {
@@ -127,8 +121,8 @@ const Testimonial = () => {
   function TestimonialCard(name, title, company, desc, img, project, date) {
     return (
       <div className="w-full">
-        <div className="w-full h-200 flex lgl:flex-row justify-center pb-5 items-center ">
-          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-l from-gradientStart from-80% to-gradientEnd p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg">
+        <div className="w-full h-200 flex lgl:flex-row justify-center pb-5 items-center xs:gap-0 xs:flex-col xs:items-center xs:cols-1">
+          <div className="m-5 w-full lgl:w-[35%] h-full bg-gradient-to-l from-gradientStart from-80% to-gradientEnd p-8 rounded-lg flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-lg ">
             <img
               className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
               src={img}
@@ -143,7 +137,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="w-full lgl:w-[60%] h-full flex flex-col items-center">
-            <div className="mr-5 w-full h-[70%] py-10 bg-gradient-to-tr from-gradientStart from-70% to-gradientEnd rounded-lg p-4 flex flex-col gap-4 shadow-lg">
+            <div className="w-full h-[70%] py-10 bg-gradient-to-tr from-gradientStart from-70% to-gradientEnd rounded-lg p-4 flex flex-col gap-4 shadow-lg">
               <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                 <div>
                   <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
@@ -163,10 +157,7 @@ const Testimonial = () => {
   }
 
   return (
-    <section
-      id="testimonial"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
+    <section id="testimonial" className="w-full border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="WHAT EMPLOYERS SAY" des="Testimonials" />
       </div>
@@ -181,8 +172,8 @@ const Testimonial = () => {
               testimonial.desc,
               testimonial.img,
               testimonial.project,
-              testimonial.date,
-            ),
+              testimonial.date
+            )
           )}
         </Slider>
       </div>

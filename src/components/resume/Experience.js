@@ -2,6 +2,25 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ResumeCard, mapDesc } from "./ResumeCard";
 
+const ashDesc = [
+  {
+    index: 1,
+    item: "Develop accessibility compliant web pages based on Figma mockups using React, MUI, ReactRouter, ReactQuery, Axios, Jest, and Storybook. ",
+  },
+  {
+    index: 2,
+    item: "Create endpoints and maintain microservices in C# using ASP .NET Core 8 with Azure Identity authentication.",
+  },
+  {
+    index: 3,
+    item: "Use Azure Devops to task out PBI’s, estimate effort, create pull requests, and track deployment pipelines.",
+  },
+  {
+    index: 4,
+    item: "Use Slack and Teams communications to plan and test code changes with other internal teams. (Database, DevSecOps, QA, UI)",
+  },
+];
+
 const cpowerDesc = [
   {
     index: 1,
@@ -102,7 +121,13 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]">2019 - NOW</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 mb-6 lgl:mt-6 w-full h-[1000px] border-l-[6px] border-gradientEnd border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 mb-6 lgl:mt-6 w-full border-l-[6px] border-gradientEnd border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Software Engineer"
+            subTitle="American Specialty Health - (11/23-Current)"
+            result="Carmel, IN"
+            des={mapDesc(ashDesc)}
+          />
           <ResumeCard
             title="Software Developer"
             subTitle="CPower Energy - (11/23-7/24)"

@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
-            Features
+            Services
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>
@@ -115,9 +115,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
+                className="w-[80%] h-full bg-gradient-to-r from-gradientStart via-gradientEnd to-designColor rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">80%</span>
               </motion.span>
             </span>
           </div>
@@ -139,7 +139,7 @@ const Skills = () => {
       <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
-            Features
+            Services
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Development Software

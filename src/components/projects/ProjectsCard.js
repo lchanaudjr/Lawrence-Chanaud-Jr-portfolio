@@ -20,8 +20,11 @@ const ProjectsCard = ({ title, des, src, github }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-designColor text-gradientStart inline-flex justify-center items-center group-hover:bg-gradientStart hover:-translate-y-1 transition-all group-hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub onClick={() => openLink(github)} />
+              <span
+                onClick={() => openLink(github)}
+                className="text-lg w-10 h-10 rounded-full bg-designColor text-gradientStart inline-flex justify-center items-center group-hover:bg-gradientStart hover:-translate-y-1 transition-all group-hover:text-designColor duration-300 cursor-pointer"
+              >
+                <BsGithub />
               </span>
             </div>
           </div>

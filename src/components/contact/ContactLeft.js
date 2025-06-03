@@ -29,14 +29,15 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaLinkedinIn
-              onClick={() => {
-                openLink(
-                  "https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/",
-                );
-              }}
-            />
+          <span
+            className="bannerIcon"
+            onClick={() => {
+              openLink(
+                "https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/"
+              );
+            }}
+          >
+            <FaLinkedinIn />
           </span>
         </div>
       </div>

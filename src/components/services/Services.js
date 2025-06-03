@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import { FaGlobe, FaDatabase } from "react-icons/fa";
-import {  SiMicrosoftteams, SiPostman, SiReact } from "react-icons/si";
-import Title from '../layouts/Title';
-import Card from './Card';
+import { SiMicrosoftteams, SiPostman, SiReact } from "react-icons/si";
+import Title from "../layouts/Title";
+import Card from "./Card";
 
-const Features = () => {
+const Services = () => {
   return (
     <section
-      id="features"
+      id="services"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <Title title="Features" des="What I Do" />
+      <Title title="services" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="API Development"
@@ -40,6 +40,6 @@ const Features = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Features
+export default Services;

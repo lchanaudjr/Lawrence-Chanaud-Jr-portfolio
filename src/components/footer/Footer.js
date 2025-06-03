@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
+import openLink from "../../openLink";
 
 const Footer = () => {
   return (
@@ -8,7 +9,14 @@ const Footer = () => {
       <div className="w-full h-full flex inline justify-center">
         <img className="w-20 h-20 mr-3 inline" src={logo} alt="logo" />
         <div className="flex justify-between">
-          <span className="bannerIcon">
+          <span
+            className="bannerIcon"
+            onClick={() => {
+              openLink(
+                "https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/"
+              );
+            }}
+          >
             <FaLinkedinIn />
           </span>
         </div>

@@ -1,20 +1,12 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaReact,
-  FaGithub,
-} from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiFigma,
   SiNextdotjs,
-  SiCsharp,
   SiDotnet,
   SiDocker,
   SiAzurefunctions,
+  SiVite,
 } from "react-icons/si";
 import openLink from "../../openLink";
 
@@ -26,12 +18,12 @@ const LeftBanner = () => {
       "Technology Enthusiest",
     ],
     loop: true,
-    typeSpeed: 20,
-    deleteSpeed: 10,
-    delaySpeed: 2000,
+    typeSpeed: 30,
+    deleteSpeed: 30,
+    delaySpeed: 3000,
   });
   return (
-    <div className="w-full p-5 lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full p-5 sm:p-0 lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">MEET YOUR NEWEST RECRUIT</h4>
         <h1 className="text-6xl font-bold text-white">
@@ -40,8 +32,8 @@ const LeftBanner = () => {
             Lawrence Chanaud Jr.
           </span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
-          <span>{text}</span>
+        <h2 className="text-4xl font-bold text-white sm:min-h-[80px]">
+          <span className="sm:min-h-24">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -63,21 +55,23 @@ const LeftBanner = () => {
             Find me on
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaLinkedinIn
-                onClick={() => {
-                  openLink(
-                    "https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/",
-                  );
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink(
+                  "https://www.linkedin.com/in/lawrence-chanaud-jr-b75962151/"
+                );
+              }}
+            >
+              <FaLinkedinIn />
             </span>
-            <span className="bannerIcon">
-              <FaGithub
-                onClick={() => {
-                  openLink("https://github.com/lchanaudjr");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://github.com/lchanaudjr");
+              }}
+            >
+              <FaGithub />
             </span>
           </div>
         </div>
@@ -86,49 +80,55 @@ const LeftBanner = () => {
             HANDS ON EXPERIENCE WITH
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon ">
-              <FaReact
-                onClick={() => {
-                  openLink("https://react.dev/");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://react.dev/");
+              }}
+            >
+              <FaReact />
             </span>
-            <span className="bannerIcon">
-              <SiNextdotjs
-                onClick={() => {
-                  openLink("https://nextjs.org/");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://nextjs.org/");
+              }}
+            >
+              <SiNextdotjs />
             </span>
-            <span className="bannerIcon">
-              <SiCsharp
-                onClick={() => {
-                  openLink("https://learn.microsoft.com/en-us/dotnet/csharp/");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://vite.dev/");
+              }}
+            >
+              <SiVite />
             </span>
-            <span className="bannerIcon">
-              <SiDotnet
-                onClick={() => {
-                  openLink("https://dotnet.microsoft.com/en-us/");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://dotnet.microsoft.com/en-us/");
+              }}
+            >
+              <SiDotnet />
             </span>
-            <span className="bannerIcon">
-              <SiDocker
-                onClick={() => {
-                  openLink("https://www.docker.com/");
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink("https://www.docker.com/");
+              }}
+            >
+              <SiDocker />
             </span>
-            <span className="bannerIcon">
-              <SiAzurefunctions
-                onClick={() => {
-                  openLink(
-                    "https://azure.microsoft.com/en-us/products/functions",
-                  );
-                }}
-              />
+            <span
+              className="bannerIcon"
+              onClick={() => {
+                openLink(
+                  "https://azure.microsoft.com/en-us/products/functions"
+                );
+              }}
+            >
+              <SiAzurefunctions />
             </span>
           </div>
         </div>

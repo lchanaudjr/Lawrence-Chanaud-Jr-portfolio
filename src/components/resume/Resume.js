@@ -17,27 +17,31 @@ const Resume = () => {
         <ul className="w-full grid gap-2 grid-cols-1 md:grid-cols-3 xl:grid-cols-3 ">
           <li
             onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(true)
-            }
-            className={`${
-              experienceData ? "-translate-y-2 transition-all" : ""
-            } resumeLi`}
-          >
-            Experience
-          </li>
-          <li
-            onClick={() =>
               setEducationData(true) &
               setSkillData(false) &
               setExperienceData(false)
             }
             className={`${
-              educationData ? "-translate-y-2 transition-all" : ""
+              educationData
+                ? "-translate-y-2 transition-all"
+                : "bg-opacity-40 hover:bg-opacity-100"
             } resumeLi`}
           >
             Education
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(true)
+            }
+            className={`${
+              experienceData
+                ? "-translate-y-2 transition-all"
+                : "bg-opacity-40 hover:bg-opacity-100"
+            } resumeLi`}
+          >
+            Experience
           </li>
           <li
             onClick={() =>
@@ -46,7 +50,9 @@ const Resume = () => {
               setExperienceData(false)
             }
             className={`${
-              skillData ? "-translate-y-2 transition-all" : ""
+              skillData
+                ? "-translate-y-2 transition-all"
+                : "bg-opacity-40 hover:bg-opacity-100"
             } resumeLi`}
           >
             Professional Skills

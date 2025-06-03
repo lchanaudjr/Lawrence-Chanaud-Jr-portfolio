@@ -1,15 +1,34 @@
 import React, { useState } from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [username, setUsername] = useState("");
+  const [name, setName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
+
+  emailjs.init({
+    publicKey: "Up-2roy1-gHnpZnqE",
+    // Do not allow headless browsers
+    blockHeadless: true,
+    blockList: {
+      // Block the suspended emails
+      list: ["foo@emailjs.com", "bar@emailjs.com"],
+      // The variable contains the email address
+      watchVariable: "email",
+    },
+    limitRate: {
+      // Set the limit rate for the application
+      id: "app",
+      // Allow 1 request per 10s
+      throttle: 10000,
+    },
+  });
 
   // ========== Email Validation start here ==============
   const emailValidation = () => {
@@ -21,28 +40,44 @@ const Contact = () => {
 
   const handleSend = (e) => {
     e.preventDefault();
-    if (username === "") {
-      setErrMsg("Username is required!");
+    if (name === "") {
+      setErrMsg("Name is required!");
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
     } else if (email === "") {
-      setErrMsg("Please give your Email!");
+      setErrMsg("Email is required!");
     } else if (!emailValidation(email)) {
-      setErrMsg("Give a valid Email!");
+      setErrMsg("Plese provide a valid email!");
     } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
+      setErrMsg("Plese provide a subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`,
+      // Here you can add your email sending logic
+
+      var form = {
+        name: name,
+        phone: phoneNumber,
+        email: email,
+        subject: subject,
+        message: message,
+      };
+      emailjs.send("service_2o5zz6e", "template_tas2jc9", form).then(
+        () => {
+          setSuccessMsg(
+            `Thank you ${name}, Your Messages has been sent Successfully!`
+          );
+          setErrMsg("");
+          setName("");
+          setPhoneNumber("");
+          setEmail("");
+          setSubject("");
+          setMessage("");
+        },
+        (error) => {
+          setErrMsg("Apologies, something went wrong. Please try again later.");
+        }
       );
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
     }
   };
   return (
@@ -64,8 +99,8 @@ const Contact = () => {
                     Your name
                   </p>
                   <input
-                    onChange={(e) => setUsername(e.target.value)}
-                    value={username}
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
                     className={`${
                       errMsg === "Username is required!" &&
                       "outline-designColor"

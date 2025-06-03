@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
-import Features from "./components/features/Features";
+import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
+        <Services />
         <Projects />
         <Resume />
         <Testimonial />
